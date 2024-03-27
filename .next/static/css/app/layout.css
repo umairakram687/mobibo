@@ -507,37 +507,8 @@ video {
 .m-auto {
   margin: auto;
 }
-.my-\[20px\] {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-.my-\[30px\] {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-.mb-\[20px\] {
-  margin-bottom: 20px;
-}
-.mt-\[100px\] {
-  margin-top: 100px;
-}
-.mt-\[10px\] {
-  margin-top: 10px;
-}
 .mt-\[20px\] {
   margin-top: 20px;
-}
-.mt-\[30px\] {
-  margin-top: 30px;
-}
-.mt-\[40px\] {
-  margin-top: 40px;
-}
-.mt-\[80\%\] {
-  margin-top: 80%;
-}
-.block {
-  display: block;
 }
 .flex {
   display: flex;
@@ -551,20 +522,8 @@ video {
 .w-\[100\%\] {
   width: 100%;
 }
-.w-\[60\%\] {
-  width: 60%;
-}
-.w-\[70\%\] {
-  width: 70%;
-}
-.w-\[80\%\] {
-  width: 80%;
-}
 .w-\[90\%\] {
   width: 90%;
-}
-.max-w-\[1280px\] {
-  max-width: 1280px;
 }
 .cursor-pointer {
   cursor: pointer;
@@ -578,9 +537,6 @@ video {
 .items-center {
   align-items: center;
 }
-.justify-center {
-  justify-content: center;
-}
 .justify-between {
   justify-content: space-between;
 }
@@ -589,9 +545,6 @@ video {
 }
 .gap-\[20px\] {
   gap: 20px;
-}
-.gap-\[30px\] {
-  gap: 30px;
 }
 .rounded-\[12px\] {
   border-radius: 12px;
@@ -628,9 +581,6 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
-.p-0 {
-  padding: 0px;
-}
 .p-1 {
   padding: 0.25rem;
 }
@@ -653,29 +603,11 @@ video {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.pr-\[10px\] {
-  padding-right: 10px;
-}
-.text-\[10px\] {
-  font-size: 10px;
-}
 .text-\[12px\] {
   font-size: 12px;
 }
 .text-\[14px\] {
   font-size: 14px;
-}
-.text-\[18px\] {
-  font-size: 18px;
-}
-.text-\[22px\] {
-  font-size: 22px;
-}
-.text-\[24px\] {
-  font-size: 24px;
-}
-.text-\[30px\] {
-  font-size: 30px;
 }
 .font-\[400\] {
   font-weight: 400;
@@ -683,76 +615,21 @@ video {
 .font-\[500\] {
   font-weight: 500;
 }
-.font-\[700\] {
-  font-weight: 700;
-}
-.uppercase {
-  text-transform: uppercase;
-}
-.leading-\[0px\] {
-  line-height: 0px;
-}
 .leading-\[16px\] {
   line-height: 16px;
 }
 .leading-\[20px\] {
   line-height: 20px;
 }
-.leading-\[24px\] {
-  line-height: 24px;
-}
-.leading-\[28px\] {
-  line-height: 28px;
-}
-.leading-\[30px\] {
-  line-height: 30px;
-}
-.leading-\[32px\] {
-  line-height: 32px;
-}
-.leading-\[34px\] {
-  line-height: 34px;
-}
-.leading-\[44px\] {
-  line-height: 44px;
-}
-.tracking-\[-0\.55px\] {
-  letter-spacing: -0.55px;
-}
 .tracking-\[-0\.5px\] {
   letter-spacing: -0.5px;
-}
-.tracking-\[-0\.8px\] {
-  letter-spacing: -0.8px;
 }
 .tracking-\[0\.05px\] {
   letter-spacing: 0.05px;
 }
-.tracking-\[0px\] {
-  letter-spacing: 0px;
-}
-.tracking-\[1px\] {
-  letter-spacing: 1px;
-}
-.text-\[\#000\] {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
 .text-\[\#3C3C43\] {
   --tw-text-opacity: 1;
   color: rgb(60 60 67 / var(--tw-text-opacity));
-}
-.text-\[\#8d939d\] {
-  --tw-text-opacity: 1;
-  color: rgb(141 147 157 / var(--tw-text-opacity));
-}
-.text-\[\#e4e4e6\] {
-  --tw-text-opacity: 1;
-  color: rgb(228 228 230 / var(--tw-text-opacity));
-}
-.text-\[\#fff\] {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@100..900&display=swap');
 
@@ -814,85 +691,6 @@ video {
 
   .md\:hidden {
     display: none;
-  }
-}
-@media (min-width: 1024px) {
-
-  .lg\:mt-\[0px\] {
-    margin-top: 0px;
-  }
-
-  .lg\:mt-\[117\%\] {
-    margin-top: 117%;
-  }
-
-  .lg\:flex {
-    display: flex;
-  }
-
-  .lg\:w-\[20\%\] {
-    width: 20%;
-  }
-
-  .lg\:w-\[26\%\] {
-    width: 26%;
-  }
-
-  .lg\:w-\[50\%\] {
-    width: 50%;
-  }
-
-  .lg\:w-\[60\%\] {
-    width: 60%;
-  }
-
-  .lg\:flex-row {
-    flex-direction: row;
-  }
-
-  .lg\:p-2 {
-    padding: 0.5rem;
-  }
-
-  .lg\:text-\[100px\] {
-    font-size: 100px;
-  }
-
-  .lg\:text-\[16px\] {
-    font-size: 16px;
-  }
-
-  .lg\:text-\[24px\] {
-    font-size: 24px;
-  }
-
-  .lg\:text-\[28px\] {
-    font-size: 28px;
-  }
-
-  .lg\:leading-\[96px\] {
-    line-height: 96px;
-  }
-
-  .lg\:tracking-\[-10px\] {
-    letter-spacing: -10px;
-  }
-
-  .lg\:tracking-\[-11px\] {
-    letter-spacing: -11px;
-  }
-
-  .lg\:tracking-\[-2\.05px\] {
-    letter-spacing: -2.05px;
-  }
-
-  .lg\:text-\[\#EBEBF5\] {
-    --tw-text-opacity: 1;
-    color: rgb(235 235 245 / var(--tw-text-opacity));
-  }
-
-  .lg\:text-\[\#ffff\] {
-    color: #ffff;
   }
 }
 /*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
