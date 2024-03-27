@@ -7,6 +7,8 @@ import brightIcon from "@/Assests/bright-icon.svg"
 import gameIcon from "@/Assests/gamecontroller-icon.svg"
 
 const page = () => {
+
+  // next code
   return (
     <div className="m-auto w-[100%] max-w-[1280px]">
       <Header />
