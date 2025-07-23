@@ -78,8 +78,13 @@
   left: 0px;
   padding: 20px 0px;
   border-bottom: 1px solid #000;
+  z-index: 99;
 }
 
+.routes-right{
+  background-image: url("../Assests/AdsSettings-2.png");
+  background-size: contain;
+}
 .navlinks{
   list-style: none;
   display: flex;
@@ -140,6 +145,9 @@
 
 .navbar{
   padding: 5px 1rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0px auto;
 }
 .react-calendar__month-view__days__day--neighboringMonth {
   color: gray !important;
@@ -164,10 +172,237 @@
   border:1px solid #a57bff; 
   border-radius: 60px;
 }
+.footer-navigation{
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  cursor: pointer;
+  line-height: 25px;
+  letter-spacing: 0.05px;
+  color: #8b8b90;
+}
+.footer-address{
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.05px;
+  color: #535357;
+}
+.footer-callbtn{
+   background: #39393d;
+   border: 1px solid #8b8b90;
+   color: #8b8b90;
+   font-size: 16px;
+   padding: 0.5rem 1rem;
+   border-radius: 0.5rem;
+   margin-top: 10px;
+}
+.needtoknow{
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.05px;
+  color: #ffff;
+}
+.adsBlog-btn{
+  background-color: #ffff;
+  color: #000;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin-top:10px;
+}
+
+.footer-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+ 
+}
+.footer-wrap{
+  max-width: 1280px;
+  margin: 0px auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+.footer-logo{
+  width: 30%;
+}
+.footer-links{
+  width: 20%;
+}
+.Address-main{
+  width: 20%;
+}
+.know-sec{
+  width: 20%;
+}
+.copyright-sec{
+  display: flex;
+  margin-top: 30px;
+}
+.company-name{
+  padding-top: 87% !important;
+  padding: 0.5rem;
+  font-family: "Inter", sans-serif;
+  font: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.05px;
+}
+.company-name p{
+  background: #695953;
+  border-radius: 9999px;
+  width: fit-content;
+  padding: 0.5rem;
+  color: #ffff;
+}
+
+.social-icon:hover{
+  width:25px;
+  transition : all 0.5s;
+}
+.footer-callbtn:hover{
+  border:1px solid #ffff;
+  color: #ffff;
+  transition: all 1s;
+}
+.footer-navigation:hover{
+  color: #ffff;
+  transition: all 1s;
+}
+.adsBlog-btn:hover{
+  border: 1px solid #ffff;
+  color: #ffff;
+  background: none;
+  transition: all 0.5s;
+}
+/* Custom styles for react-calendar */
+.react-calendar {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align month name to the left */
+}
+
+.react-calendar__navigation {
+  display: flex;
+  justify-content: flex-end; /* Align navigation arrows to the right */
+}
+
+.react-calendar__navigation button {
+  margin: 0 5px;
+}
+
+.adCampain-container{
+  margin: 0px auto;
+  max-width: 1280px;
+  width: 100%;
+}
+.adCampain-wrap{
+  display: flex;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  gap: 10px;
+
+}
+.adCampain-heading{
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 34px;
+  width: 32%;
+}
+.adCampain-sec{
+ width: 23%;
+ font-family: "Inter", sans-serif;
+}
+
+.main-h-adCampain{
+  margin-top: 20px;
+  font-family: "Inter", sans-serif;
+  padding-bottom: 40px;
+  padding: 0px 20px;
+  gap: 20px;
+  width: 100%;
+  display: flex;
+}
+.heading-campain{
+  font-size: 80px;
+  font-weight: 500;
+  letter-spacing: -4px;
+  line-height: 70px;
+  font-family: "Inter", sans-serif;}
+.allCompain-container{
+  margin: 0px auto;
+  font-family: "Inter", sans-serif;
+  max-width: 1280px;
+  width: 100%;
+}
+.routes-wrap{
+  width: 100%;
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  gap: 10px;
+  padding: 0px 20px;
+  margin-top: 40px;
+}
+.routes-left,.routes-right{
+  width: 50%;
+}
+.routes-right{
+  margin-left: 80px;
+}
+/* :where(.css-dev-only-do-not-override-nnuwmp).ant-modal{
+  top: 0px !important;
+  margin: 0px !important;
+  padding-bottom: 0px !important;
+
+}
+:where(.css-dev-only-do-not-override-nnuwmp).ant-modal .ant-modal-content{
+  width: 1280px;
+  border-radius: 0px;
+  background-color: #e4e4e4;
+} */
 @media screen and (max-width:580px) {
 .hero-banner{
   height: 200px;
-  border-radius: 1rem;
+}
+.adCampain-wrap{
+  flex-direction: column;
+}
+.adCampain-sec{
+  width: 100%;
+}
+.adCampain-heading{
+  width: 85%
+}
+.heading-campain{
+  font-size: 40px;
+}
+.routes-wrap{
+  flex-direction: column;
+}
+.routes-right{
+  margin-left: 0px;
+  width:100%;
+}
+.know-sec{
+ width: 80%;
+ margin: 30px 0px;
+}
+.Address-main{
+  width: 80%;
+}
+.footer-logo{
+  width: 100%;
+}
+.footer-container{
+  flex-direction: column;
+  gap: 10px;
 }
 .menu-toggle{
   display: block;
@@ -179,5 +414,15 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
+}
+.adCampain-wrap{
+  padding: 1rem;
+}
+.heading-campain{
+  line-height: normal;
+}
+.routes-right{
+  background-size: contain;
+  height: 600px;
 }
 }
